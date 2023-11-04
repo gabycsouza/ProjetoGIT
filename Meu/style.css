@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Nunito:wght@500&family=Raleway:wght@200;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    color: #32328e;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+}
+
+.botao {
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid #4d4db4;
+    width: 100px;
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.botao:hover{
+    cursor: pointer;
+    color: #FFF;
+    transition: ease-in-out .3s;
+    background: linear-gradient(90deg, rgba(189,88,201,1) 0%, rgba(77,77,180,1) 47%, rgba(6,135,161,1) 100%);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #32328e;
+    
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.campo {
+    min-height: 65px;
+    min-width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #4d4db4;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+input:focus{
+    padding: 15px 25px;
+    transition: ease-in-out .3s;
+
+}
